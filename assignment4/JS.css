@@ -1,0 +1,58 @@
+body { margin: 0; }
+
+#movecanvas {
+    position: absolute;
+    opacity: 0;
+}
+#movecanvas:hover{
+    opacity: 1;
+}
+section { 
+    height: 90vh; /* 90% of viewport (window) height */
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1, #section3 {
+    background-color: #2411ce;
+}
+
+#section2 {
+    background-color: black;
+}
+#SVGCTK {margin: 50px; display:1000px; display:block}
+#Background {display:none;}
+#E {
+    animation: eanim 1.0s;
+}
+#X {
+    animation: xanim 1.0s;
+}
+#I {
+    animation: ianim 1.0s;
+}
+#N {
+    animation: nanim 1.0s;
+}
+
+@keyframes eanim {
+    0% {transform: translate(-200px,0);}
+    100% {transform: translate(0,0);}
+}
+@keyframes xanim {
+    0% {transform: translate(0,-200px);}
+    100% {transform: translate(0,0);}
+}
+@keyframes ianim {
+    0% {transform: translate(0,200px);}
+    100% {transform: translate(0,0);}
+}
+@keyframes nanim {
+    0% {transform: translate(200px,0);}
+    100% {transform: translate(0,0);}
+}

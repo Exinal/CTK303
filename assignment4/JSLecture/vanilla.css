@@ -1,0 +1,20 @@
+body { margin: 0; }
+
+section { 
+    height: 90vh; /* 90% of viewport (window) height */
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1, #section3 {
+    background-color: #CE1126;
+}
+
+#peekaboo {
+    width: 50vw; /* 50% of viewport (window) width */
+}
